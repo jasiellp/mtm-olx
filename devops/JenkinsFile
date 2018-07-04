@@ -8,7 +8,7 @@ pipeline
             {
                 steps
                 {
-                    echo 'Construindo..'
+                    echo 'Construindo...'
                     sh 'mvn clean'
                 }
             }

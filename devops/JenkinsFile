@@ -27,6 +27,7 @@ pipeline
                 steps
                 {
                     echo 'Implantando....'
+                    sh 'mvn install -X'
                 }
             }
     }

@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
-	<artifactId>mtm-olx</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.mtm.olx</groupId>
+	<artifactId>olx-mtm</artifactId>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>mtm-olx</name>
-	<description>Demo project for Spring Boot</description>
+	<name>olx-mtm</name>
+	<description>Project for Spring Boot MtM Olx</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,6 +25,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
